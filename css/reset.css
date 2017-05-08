@@ -1,0 +1,100 @@
+body,div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,table,tr,td,form,input,select,textarea,span,img,a,em,strong,*{
+    margin:0; padding:0;box-sizing:border-box;
+}
+
+ul,ol,li{ list-style:none;}
+h1,h2,h3,h4,h5,h6{ font-size:14px;}
+input,select,textarea{ vertical-align:middle;}
+img{ border:none; vertical-align:middle; cursor:pointer;}
+a{ text-decoration:none; color:#333333;}
+a:hover{ color:#009999;}
+.clear{ clear:both; height:0px; width:0px; overflow:hidden;}
+html, body {
+    -webkit-user-select: none; /*禁止选中文本*/
+    user-select: none;
+}
+a,button,input,optgroup,select,textarea {
+    -webkit-tap-highlight-color:rgba(0,0,0,0); /*去掉a、input和button点击时的蓝色外边框和灰色半透明背景*/
+    /* 浏览器支持: 只有iOS(iPhone和iPad)*/
+}
+input::-webkit-input-placeholder {
+    color:#b6b6b6; /*修改webkit中input的planceholder样式*/
+}
+input:focus::-webkit-input-placeholder {
+    color:#f00; /* 修改webkit中focus状态下input的planceholder样式 */
+}
+body { -webkit-text-size-adjust: 100%!important; /*禁止IOS调整字体大小*/}
+/* 默认就随着终端改变字体，如果body设成全局或者继承就会随着终端改变  不要设成全局或者可继承的*/
+input::-webkit-input-spech-button {
+    display: none; /*隐藏Android的语音输入按钮*/
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+a,
+textarea,
+input,
+button,
+span,
+em,
+strong,
+img,
+div {
+    -webkit-touch-callout: none;
+    -moz-touch-callout: none;
+    -ms-touch-callout: none;
+    touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    -ms-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+}
+
+input[type=text],
+input[type=button],
+input[type=password],
+input[type=telphone],
+input[type=search],
+textarea,
+button {
+    outline: 0 none;
+    -webkit-appearance: none;
+}
+
+textarea {
+    resize: none;
+}
+
+img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size:625%;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+body{
+    font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif; font-size:.12rem; color:#000000;/*使用无衬线字体*/
+}
+/*# sourceMappingURL=reset.css.map */
+
+
+
